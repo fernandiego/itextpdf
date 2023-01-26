@@ -31,7 +31,7 @@ public class App {
         ITextRenderer renderer = new ITextRenderer();
         renderer.setDocumentFromString(html);
         renderer.layout();
-        renderer.getFontResolver().addFont("arial.ttf", true);
+//        renderer.getFontResolver().addFont("arial.ttf", true);
         renderer.createPDF(stream);
     }
 }
